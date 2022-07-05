@@ -13,6 +13,10 @@
 		DE4DD2822874C2C900C0C084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4DD2802874C2C900C0C084 /* Main.storyboard */; };
 		DE4DD2842874C2CB00C0C084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE4DD2832874C2CB00C0C084 /* Assets.xcassets */; };
 		DE4DD2872874C2CB00C0C084 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4DD2852874C2CB00C0C084 /* LaunchScreen.storyboard */; };
+		DE4DD28F2874C3DA00C0C084 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DE4DD28E2874C3DA00C0C084 /* video.mp4 */; };
+		DE4DD2922874C40200C0C084 /* CollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4DD2912874C40200C0C084 /* CollectionTableViewCell.swift */; };
+		DE4DD2942874C41600C0C084 /* TableCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4DD2932874C41600C0C084 /* TableCollectionViewCell.swift */; };
+		DE4DD2962874C6AD00C0C084 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4DD2952874C6AD00C0C084 /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		DE4DD2832874C2CB00C0C084 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE4DD2862874C2CB00C0C084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE4DD2882874C2CB00C0C084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE4DD28E2874C3DA00C0C084 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		DE4DD2912874C40200C0C084 /* CollectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTableViewCell.swift; sourceTree = "<group>"; };
+		DE4DD2932874C41600C0C084 /* TableCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCollectionViewCell.swift; sourceTree = "<group>"; };
+		DE4DD2952874C6AD00C0C084 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,8 @@
 		DE4DD2792874C2C900C0C084 /* AdvancedTableView */ = {
 			isa = PBXGroup;
 			children = (
+				DE4DD2902874C3F200C0C084 /* Cells */,
+				DE4DD28E2874C3DA00C0C084 /* video.mp4 */,
 				DE4DD27A2874C2C900C0C084 /* AppDelegate.swift */,
 				DE4DD27C2874C2C900C0C084 /* SceneDelegate.swift */,
 				DE4DD27E2874C2C900C0C084 /* ViewController.swift */,
@@ -63,8 +73,18 @@
 				DE4DD2832874C2CB00C0C084 /* Assets.xcassets */,
 				DE4DD2852874C2CB00C0C084 /* LaunchScreen.storyboard */,
 				DE4DD2882874C2CB00C0C084 /* Info.plist */,
+				DE4DD2952874C6AD00C0C084 /* Models.swift */,
 			);
 			path = AdvancedTableView;
+			sourceTree = "<group>";
+		};
+		DE4DD2902874C3F200C0C084 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DE4DD2912874C40200C0C084 /* CollectionTableViewCell.swift */,
+				DE4DD2932874C41600C0C084 /* TableCollectionViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +148,7 @@
 				DE4DD2872874C2CB00C0C084 /* LaunchScreen.storyboard in Resources */,
 				DE4DD2842874C2CB00C0C084 /* Assets.xcassets in Resources */,
 				DE4DD2822874C2C900C0C084 /* Main.storyboard in Resources */,
+				DE4DD28F2874C3DA00C0C084 /* video.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +162,9 @@
 				DE4DD27F2874C2C900C0C084 /* ViewController.swift in Sources */,
 				DE4DD27B2874C2C900C0C084 /* AppDelegate.swift in Sources */,
 				DE4DD27D2874C2C900C0C084 /* SceneDelegate.swift in Sources */,
+				DE4DD2962874C6AD00C0C084 /* Models.swift in Sources */,
+				DE4DD2942874C41600C0C084 /* TableCollectionViewCell.swift in Sources */,
+				DE4DD2922874C40200C0C084 /* CollectionTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
